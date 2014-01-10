@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/lukagabric/LHelper.git"
   s.author       = { "Antonio Cabezuelo Vivo" => "antonio@tapsandswipes.com" }
   s.source       = { :git => "https://github.com/lukagabric/LHelper.git", :tag => '1.0.2' }
-  s.source_files = ‘Classes/*.{h,m}’
+  s.source_files = ‘LHelper/Classes/*.{h,m}’
   s.resources    = 'LHelper/LHelper'
   s.requires_arc = true
   s.license      = { :type => 'MIT', :file => 'LICENSE.markdown' }
